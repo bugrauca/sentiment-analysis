@@ -51,12 +51,23 @@ To run this project, the following dependencies are required:
 - tqdm
 - Matplotlib
 - seaborn
+- Git LFS (for large files)
 - Google Colab (Optional)
 
 You can install the required packages using the following command:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Cloning the Repository
+
+This repository uses Git LFS to store large files such as the dataset CSVs and the BERT model weights.  
+To clone the project properly:
+
+```bash
+git lfs install
+git clone https://github.com/bugrauca/sentiment-analysis.git
 ```
 
 ## Dataset
