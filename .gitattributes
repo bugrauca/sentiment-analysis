@@ -1,2 +1,3 @@
 data/raw/sentiment140.csv filter=lfs diff=lfs merge=lfs -text
 data/processed/preprocessed.csv filter=lfs diff=lfs merge=lfs -text
+models/bert_model.pt filter=lfs diff=lfs merge=lfs -text
